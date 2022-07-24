@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">job</string>
+    <string name="user_type_activity_title">O que está a procurar?</string>
+</resources>
