@@ -2,4 +2,11 @@
 <resources>
     <string name="app_name">job</string>
     <string name="user_type_activity_title">What is you looking for?</string>
+    <string name="user_type_find_job_text">Find a job</string>
+    <string name="user_type_find_employee_text">Find a employee</string>
+    <string name="user_type_confirm">Confirm</string>
+    <string name="user_type_activity_choice_subtitle">Select if you are looking for a job or if you are a company looking for collaborators</string>
+    <string name="user_type_choice_type_card_description_job_text">Find a job quickly</string>
+    <string name="user_type_choice_type_card_description_employee_text">Find a collaborator for your company</string>
+
 </resources>

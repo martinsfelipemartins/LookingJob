@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_type_find_job_text">Encontre uma vaga</string>
+    <string name="user_type_choice_type_card_description_job_text">Encontre uma vaga de emprego rapidamente</string>
+</resources>

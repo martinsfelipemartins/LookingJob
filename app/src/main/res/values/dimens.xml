@@ -2,12 +2,14 @@
 <resources>
 
     <!--MARGIN-->
+    <dimen name="margin_1dp">1dp</dimen>
     <dimen name="margin_8dp">8dp</dimen>
     <dimen name="margin_16dp">16dp</dimen>
     <dimen name="margin_24dp">24dp</dimen>
     <dimen name="margin_32dp">32dp</dimen>
     <dimen name="margin_40dp">40dp</dimen>
     <dimen name="margin_48dp">48dp</dimen>
+    <dimen name="margin_56dp">56dp</dimen>
 
     <!--TEXT_SIZE-->
     <dimen name="text_size_12sp">12sp</dimen>
@@ -17,7 +19,6 @@
     <dimen name="text_size_32sp">32sp</dimen>
 
     <!--RADIUS-->
-
     <dimen name="radius_8dp">8dp</dimen>
     <dimen name="radius_4dp">4dp</dimen>
 
