@@ -13,5 +13,26 @@ class UserTypeActivity : AppCompatActivity() {
         binding =  UserTypeActivityBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+        behaviorCards()
+        behaviorButton()
     }
+
+    private fun behaviorCards() {
+        binding.userTypeCardContainer.setOnClickListener {
+            binding.userTypeCardContainer.isSelected = true
+            binding.userTypeContainerEmployeeCard.isSelected = false
+        }
+        binding.userTypeContainerEmployeeCard.setOnClickListener {
+            binding.userTypeCardContainer.isSelected = false
+            binding.userTypeContainerEmployeeCard.isSelected = true
+        }
+    }
+
+    private fun behaviorButton(){
+        binding.appCompatButton.setOnClickListener {
+            binding.appCompatButton.isActivated =  true
+        }
+    }
+
+
 }

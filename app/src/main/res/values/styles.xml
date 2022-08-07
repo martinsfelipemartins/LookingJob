@@ -4,4 +4,17 @@
         <item name="android:textColor">@color/gray_525252</item>
         <item name="android:textSize">@dimen/text_size_12sp</item>
      </style>
+
+    <style name="ButtonDisable" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="materialThemeOverlay">@style/ButtonOverlayTheme</item>
+
+    </style>
+
+    <style name="ButtonOverlayTheme">
+        <item name="colorPrimary">@color/gray_button_disabled</item>
+        <item name="android:textColor">@drawable/text_color_selector</item>
+
+
+    </style>
 </resources>

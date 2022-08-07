@@ -11,5 +11,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray_707070">#707070</color>
     <color name="gray_525252">#525252</color>
+    <color name="gray_text_button_disabled">#ADADAD</color>
+    <color name="gray_button_disabled">#E0E0E0</color>
     <color name="purple_main_8A05BE">#8A05BE</color>
 </resources>
